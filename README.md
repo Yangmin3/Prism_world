@@ -19,8 +19,8 @@
 `embeddings.npy`: AI가 포켓몬 이미지와 텍스트의 특징을 미리 학습하여 숫자 벡터로 변환, 저장해 둔 파일. 이 파일 덕분에 앱의 분석 속도가 획기적으로 빨라집니다.
 
 <br>
-<img width="853" height="251" alt="prism" src="https://github.com/user-attachments/assets/2d2e2894-8f0f-4cf9-8785-8ef6be66fdb0" />
-<img width="853" height="251" alt="play" src="https://github.com/user-attachments/assets/9721fafb-0147-4c4c-9ed5-b6c7099f864f" />
+<img width="853" height="251" alt="play" src="https://github.com/user-attachments/assets/a2a19e7c-0b57-4c14-bd0b-77a4c914b9ae" />
+<img width="853" height="251" alt="prism" src="https://github.com/user-attachments/assets/ceb7c17b-6f62-42dc-a7d7-ed1663ec196b" />
 
 
 2. 실행 명령어
@@ -77,26 +77,27 @@ AI 탐정 (LLM): GPT-4o가 "최고의 포켓몬 탐정" 역할을 맡아, 사용
 
 대화 기억: 이전 대화 기록을 함께 전송하여, "그 포켓몬의 진화형은 뭐야?"와 같은 연속적인 질문에도 맥락을 이해하고 답변할 수 있습니다.
 
-<img width="1865" height="730" alt="prism2" src="https://github.com/user-attachments/assets/227e4dfc-b2ba-4048-8b14-81f6bbf23a79" />
+<img width="1865" height="730" alt="prism2" src="https://github.com/user-attachments/assets/8fe99f5a-3b03-4191-8860-afacc05e30eb" />
 
 
-### 📈 개발 여정 및 로드맵
-**V1.0: 기반 구축**
+
+### 📈 개발 여정
+**기반 구축**
 과제: 1시간 이상 걸리던 초기 데이터 로딩 시간 단축.
 
 해결: `embeddings.npy` 파일 캐싱을 통해 실행 속도를 획기적으로 개선.
 
-**V2.0: UX/UI 혁신**
+**UX/UI 혁신**
 개선: "차원 접속기", "타로 운세" 등 감성적 컨셉 도입 및 UI 가독성 향상.
 
 추가: 유추 게임, 스무고개 AI, 오박사 챗봇 등 신규 모듈 대거 추가.
 
-**V3.0: 완성도 향상**
+**완성도 향상**
 개선: UI 통일성(형광색) 강화 및 불필요한 링크 제거.
 
 고도화: 관계 유추 게임에 관계도(%) 수치화 및 정답 피드백 추가.
 
-**V4.0: 데이터 시각화**
+**데이터 시각화**
 심화: '간단 분석'과 '상세 분석'을 분리하고, 상세 분석에 육각형 스탯 그래프를 도입하여 데이터 시각화 강화.
 
 완성: 모든 UI 레이아웃 최종 조정 및 기능 안정화.
@@ -108,14 +109,14 @@ P.R.I.S.M.이 데이터 분석의 세계라면, Poketmon_World는 직접 모험�
 
 유기적 연동: P.R.I.S.M. 사이드바의 "포켓몬 RPG 세계로 떠나기" 버튼을 누르면, 백그라운드에서 실행 중인 Poketmon_World 창이 새 탭으로 열려, 분석과 모험의 세계를 끊김 없이 넘나들 수 있습니다.
 
-<img width="802" height="422" alt="main" src="https://github.com/user-attachments/assets/8c5f4d53-501d-435b-8d88-264b20c7a484" />
+<img width="802" height="422" alt="main" src="https://github.com/user-attachments/assets/320f04d7-0702-4749-9514-426a46fa3ed0" />
 
 
 실행 시 로그인 화면이 우선 나오니 각자 등록해둔 아이디 비밀번호로 로그인.
 
 ------
 
-<img width="682" height="373" alt="start" src="https://github.com/user-attachments/assets/084c98be-7c53-43ff-8600-9521b2d4c2f0" />
+<img width="682" height="373" alt="start" src="https://github.com/user-attachments/assets/9f12cfdd-a9cc-47d2-b55e-48e0ef135d43" />
 
 
 
@@ -125,5 +126,8 @@ P.R.I.S.M.이 데이터 분석의 세계라면, Poketmon_World는 직접 모험�
 ------
 
 
-<img width="1398" height="481" alt="1start" src="https://github.com/user-attachments/assets/5a3a0006-bc72-455c-a414-ce85c9f80de9" />
+<img width="1398" height="481" alt="1start" src="https://github.com/user-attachments/assets/5753c2d6-9b44-4281-9286-231e0094c66d" />
+
 스타팅 포켓몬도 고르고나면 이제부터 사용자는 트레이너가 되서 포켓몬 세계를 탐험 할 수 있음.
+
+### 개선점: UI를 좀 더 깔끔하고 가독성 좋게 수정 할 것이고 RPG의 경우 기능 추가
